@@ -20,10 +20,20 @@
               referrerpolicy="no-referrer" />
     </head>
     <body>
-       <!-- Btn on Small Screen Size -->
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#showTask"
+        >
+        Launch demo modal
+      </button>
+
+        <!-- Btn on Small Screen Size -->
         <div class="add__new__btn__mobile__only d-md-none">
             <button 
-                    class="btn btn-primary d-flex align-items-center gap-2=justify-content-end" 
+                    class="btn btn-primary d-flex align-items-center gap-3" 
                     type="submit"
                     data-bs-toggle="modal"
                     data-bs-target="#addNewModal"
@@ -121,18 +131,7 @@
   </div>
 
         <!-- open Task Modal -->
-
-        <!-- need to remove btn later -->
-        <button 
-          type="button" 
-          class="btn btn-primary" 
-          data-bs-toggle="modal" 
-          data-bs-target="#exampleModal"
-          >
-          Launch demo modal
-        </button>
-
-        <div 
+      <div 
           class="modal fade" 
           id="exampleModal" 
           tabindex="-1" 
