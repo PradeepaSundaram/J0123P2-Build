@@ -20,7 +20,6 @@
               referrerpolicy="no-referrer" />
     </head>
     <body>
-
       <button
         type="button"
         class="btn btn-primary"
@@ -42,7 +41,7 @@
                   </button>
         </div>
 
-       <!-- Modal -->
+       <!-- Add New Item Modal -->
     <div 
       class="modal fade" 
       id="addNewModal" 
@@ -104,7 +103,9 @@
 
                 <!-- Task Description -->
                 <div class="mb-3"> 
-                  <label for="taskDescription" class="form-label">Task Description</label>
+                  <label for="taskDescription" class="form-label"
+                  >Task Description</label
+                  >
                   <textarea 
                     type="text" 
                     class="form-control" 
@@ -141,7 +142,9 @@
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Task Details...</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Task Details...
+                </h1>
                 <button 
                   type="button" 
                   class="btn-close"
@@ -168,9 +171,16 @@
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Tasky</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+              >
+                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -178,6 +188,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   </ul>
+
                   <button 
                     class="btn btn-primary d-flex align-items-center gap-2=justify-content-end" 
                     type="submit"
@@ -190,14 +201,14 @@
             </div>
           </nav>
 
-         
-          <div class="container">
+         <div class="container">
             <!-- Search Window -->
            <section class="mt-5">
                 <div class class="row-justify-content-center">
                     <div class="col-sm-12 col-md-6">
                         <div class="input-group flex-nowrap shadow-lg rounded">
-                            <input type="search" 
+                            <input 
+                            type="search" 
                             class="form-control" 
                             placeholder="Search Your Task Here.." 
                             aria-label="Search Task" 
@@ -217,8 +228,6 @@
             </section>
           </div>
            
-           
-
         <!-- Scripts -->
         <script src="./index.js"></script>
         <script 
